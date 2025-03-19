@@ -1,0 +1,167 @@
+@font-face {
+  font-family: 'Pretendard';
+  font-weight: 900;
+  src: url(pre/Pretendard-Black.woff) format('woff');
+}
+@font-face {
+  font-family: 'Pretendard';
+  font-weight: 800;
+  src: url(pre/Pretendard-ExtraBold.woff) format('woff');
+}
+@font-face {
+  font-family: 'Pretendard';
+  font-weight: 700;
+  src: url(pre/Pretendard-Bold.woff) format('woff');
+}
+@font-face {
+  font-family: 'Pretendard';
+  font-weight: 600;
+  src: url(pre/Pretendard-SemiBold.woff) format('woff');
+}
+@font-face {
+  font-family: 'Pretendard';
+  font-weight: 500;
+  src: url(pre/Pretendard-Medium.woff) format('woff');
+}
+@font-face {
+  font-family: 'Pretendard';
+  font-weight: 400;
+  src: url(pre/Pretendard-Regular.woff) format('woff');
+}
+@font-face {
+  font-family: 'Pretendard';
+  font-weight: 300;
+  src: url(pre/Pretendard-Light.woff) format('woff');
+}
+@font-face {
+  font-family: 'Pretendard';
+  font-weight: 200;
+  src: url(pre/Pretendard-ExtraLight.woff) format('woff');
+}
+@font-face {
+  font-family: 'Pretendard';
+  font-weight: 100;
+  src: url(pre/Pretendard-Thin.woff) format('woff');
+}
+body {
+  font-family: 'Pretendard';
+}
+/* font */
+.d-flex li {
+  display: flex;
+  list-style: none;
+}
+.d-flex {
+  display: flex;
+}
+nav {
+  width: 1774px;
+  margin: auto;
+  padding: 23px 0;
+  justify-content: space-between;
+}
+.navi {
+  gap: 0 48px;
+}
+/* 간격을 조정하는 속성*/
+.navi a {
+  text-decoration: none;
+  color: #000;
+}
+.icon ul {
+  gap: 0 11px;
+}
+li.gost {
+  display: none;
+}
+/* .icon ul {
+} */
+/* 아래부터 반응형 */
+img {
+  width: 100%;
+}
+
+@media (max-width: 1773px) {
+  nav {
+    width: 100%;
+    margin: auto;
+    padding: 26px 0px;
+    justify-content: space-between;
+  }
+  .gost {
+    display: none;
+  }
+  .icon {
+    display: block;
+  }
+}
+@media (max-width: 1280px) {
+  .icon {
+    display: none;
+  }
+  .navi {
+    gap: 0 31px;
+  }
+  nav {
+    width: 95%;
+    margin: auto;
+    padding: 24px 0;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 768px) {
+  .navi {
+    display: none;
+  }
+  .icon {
+    display: block;
+  }
+  nav {
+    width: 95%;
+    margin: auto;
+    padding: 24px 0;
+    justify-content: space-between;
+  }
+  li.none {
+    display: none;
+  }
+  li.gost {
+    display: block;
+  }
+}
+@media (max-width: 560px) {
+  .navi {
+    display: none;
+  }
+  .icon {
+    display: block;
+  }
+  li.none {
+    display: none;
+  }
+  li.gost {
+    display: block;
+  }
+  nav {
+    width: 90%;
+  }
+}
+/* @media (min-width: 600px) {
+  body {
+    background-color: blue;
+  }
+}
+@media only screen and(max-width:600px) {
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  body {
+    background-color: bisque;
+  }
+} */
+
+@media (max-width: 1280px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 576px) {
+}
